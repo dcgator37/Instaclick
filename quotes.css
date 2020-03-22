@@ -1,0 +1,196 @@
+/*  Comments to be added
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	width: 100%; 
+	margin: 0 auto;
+	font-family: "Alegreya Sans", arial, helvetica, sans-serif;
+	background: #d63447;/*rgb(255,32,0);  rgb(255,255,255) white */
+	position: relative;   
+}
+
+.top-container {
+	height: 110px;
+	background-color: rgb(170,197,245);
+	border-radius: 10px;
+}
+
+.logo {    
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	height: 110px;	
+}
+
+/* navigation */
+nav {
+	float: right; 
+	margin-top: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 30px;
+	color: black;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a.active {
+	color: blue;
+}
+
+li a:hover {  
+	color: white; 
+}
+
+.active {
+	
+}
+/* main content */
+article {
+	float: center;
+	margin: 10px;
+	background: rgb(255,255,255);
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+form {
+	width: 600px; 
+	margin: 20px auto;
+	clear: both;
+}
+
+fieldset.text{
+	padding: 4px;
+	width: 50%; 
+	float: left;
+}
+
+.contactInfo {
+   
+}
+
+.ceremonyInfo {
+   
+}
+
+#fname, #lname, #email, #phone {
+	width: 14em;
+}
+
+#address1, #address2 {
+	width: 14em;
+}
+
+#city, #zip {
+	width: 10em;
+}
+
+#state {
+	width: 3em;
+}
+
+#hrsOfService {
+	width: 8em;
+}
+
+input, label {
+	line-height: 1.2em;
+	display: block;
+}
+
+fieldset.text label {
+	width: 5em;
+	text-align: right;
+	float: left;
+	clear: left;
+	margin: 5px 10px 0 0;
+	font-size: 18px;
+}
+
+fieldset.text input {
+	margin: 7px 5px 0 0;
+}
+
+fieldset h4 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: left;
+}
+
+input[type=submit] {
+	margin: 15px auto 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	background: rgb(170,197,245);
+	border: 3px solid red;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* footer */
+.social-media ul li {
+	display: inline-block;
+	padding: 10px 10px;
+}
+#container {  
+	color: black;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	position:relative;   
+}
+
