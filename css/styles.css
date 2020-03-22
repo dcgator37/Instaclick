@@ -41,34 +41,51 @@ body {
     position: relative;
     margin: 0 auto;
     width: 100%;
+    font-family: "Alegreya Sans", arial, helvetica, sans-serif;
     text-align: center;
-    background-color: #e23e57;
+    background-color: #d63447;/* #e23e57;*/
+}
+
+.container {
+    text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	position:relative;
 }
 
 .top-container {
     /*position: relative;
     width: 100%;*/
-    height: 100px;
-    background-color: #522546;
+    height: 110px;
+    background-color: rgb(170,197,245);/*#522546;*/
+    border-radius: 10px;
 }
 
 .logo {
     
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100px;
+    top: 10px;
+    left: 20px;
+    height: 110px;
 }
 
-.nav-right {
+nav ul {
     /*position: absolute;
     top: 25%;
     right: 0;
     height: auto;*/
     float: right;
     margin-top: 40px;
+    list-style: none;
     
     
+}
+
+ nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 1.5rem;
+    /*color: #e23e57;*/
 }
 
 li a.active {
@@ -103,17 +120,6 @@ li a.active {
      margin: 50px auto;
  }
 
-
-ul {
-    list-style: none;
-}
-
-.nav-right ul li {
-    display: inline-block;
-    padding: 0 30px;
-    color: #e23e57;
-}
-
 a:link, a:visited {
     text-decoration: none;
     color: inherit;
@@ -129,6 +135,7 @@ a:link, a:visited {
  }
  hr {
      margin: 50px;
+     border-color: #311d3f;
  }
  
 #rose {
@@ -137,15 +144,16 @@ a:link, a:visited {
     margin: 50px;
 }
 
-.testimonial-container {
+/*.testimonial-container {
     position: relative;
-}
+}*/
 
 .testimonial-box {
     position: relative;
     top: 0;
     left: 0;
     background-color: white;
+    border-radius: 10px;
     display: inline-block;
     width: 300px;
     height: 500px;
@@ -159,10 +167,9 @@ a:link, a:visited {
     line-height: 2rem;
 }
  
-.social-media{
-    
-}
- 
+.social-media ul {
+     display: block;
+ }
 .social-media ul li {
     display: inline-block;
     padding: 10px 10px;
@@ -175,11 +182,30 @@ a:link, a:visited {
      color: #311d3f;
  }
 
- h2 {
+ h2 h3 {
     
      color: #311d3f;
  }
 
+ td h3 {
+    color: #311d3f;
+ }
+
  p {
      color: #311d3f;
+ }
+
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+ }
+ article table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+ }
+
+ td img {
+     height: 300px;
+     width: 300px;
  }
